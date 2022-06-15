@@ -1,5 +1,5 @@
 FROM node:16.15.1
-WORKDIR /usr
+WORKDIR /app
 COPY package*.json ./
 RUN apt-get update && apt-get install
 #RUN npm clean cache -force
